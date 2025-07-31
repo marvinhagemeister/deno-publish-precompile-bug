@@ -1,0 +1,13 @@
+{
+  "name": "@marvinh-test/jsx-precompile-publish",
+  "version": "0.0.1",
+  "license": "MIT",
+  "exports": {
+    ".": "./main.tsx"
+  },
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "preact"
+  },
+  "imports": { "preact": "npm:preact@10.27.0" }
+}
